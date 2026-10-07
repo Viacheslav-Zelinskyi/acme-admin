@@ -1,0 +1,20 @@
+.ui-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--ui-space-3);
+  border-bottom: 1px solid var(--ui-color-border);
+  background: var(--ui-color-surface);
+}
+.ui-navbar__links {
+  display: flex;
+  gap: var(--ui-space-3);
+}
+.ui-navbar__links a {
+  color: var(--ui-color-text);
+  text-decoration: none;
+}
+.ui-navbar__links a.active {
+  color: var(--ui-color-primary);
+  font-weight: 600;
+}

@@ -1,0 +1,9 @@
+.ui-user-menu__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ui-space-2);
+}
+/* Only the avatar is shown on narrow screens to save space */
+@media (max-width: 36rem) {
+  .ui-user-menu__name { display: none; }
+}

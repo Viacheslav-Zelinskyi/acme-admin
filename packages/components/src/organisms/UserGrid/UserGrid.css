@@ -1,0 +1,10 @@
+/* Columns adapt to the available width; no breakpoints needed */
+.ui-user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr));
+  gap: var(--ui-space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ui-user-grid > li { display: flex; }

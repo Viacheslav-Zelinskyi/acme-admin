@@ -1,0 +1,21 @@
+.ui-navigation-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ui-space-2);
+  padding: var(--ui-space-2) var(--ui-space-3);
+  font-weight: var(--ui-font-weight-medium);
+  color: var(--ui-color-text-muted);
+  text-decoration: none;
+  border-radius: var(--ui-radius);
+  transition: background-color var(--ui-transition), color var(--ui-transition);
+}
+.ui-navigation-item:hover { background: var(--ui-color-surface-hover); color: var(--ui-color-text); }
+.ui-navigation-item:focus-visible {
+  outline: var(--ui-focus-outline);
+  outline-offset: var(--ui-focus-offset);
+}
+.ui-navigation-item--active,
+.ui-navigation-item--active:hover {
+  background: var(--ui-color-primary-soft);
+  color: var(--ui-color-primary-active);
+}

@@ -1,0 +1,18 @@
+.ui-user-avatar {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+}
+.ui-user-avatar__status {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0.7em;
+  height: 0.7em;
+  font-size: var(--ui-font-size-md);
+  border: 0.125rem solid var(--ui-color-surface);
+  border-radius: 50%;
+}
+.ui-user-avatar__status--active { background: var(--ui-color-success); }
+.ui-user-avatar__status--away { background: var(--ui-color-warning); }
+.ui-user-avatar__status--inactive { background: var(--ui-color-disabled-text); }

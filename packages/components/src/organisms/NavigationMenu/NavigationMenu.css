@@ -1,0 +1,10 @@
+.ui-navigation-menu__list {
+  display: flex;
+  gap: var(--ui-space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ui-navigation-menu__list--horizontal { flex-direction: row; flex-wrap: wrap; }
+.ui-navigation-menu__list--vertical { flex-direction: column; }
+.ui-navigation-menu__list--vertical .ui-navigation-item { display: flex; }

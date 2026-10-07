@@ -1,0 +1,31 @@
+.ui-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ui-space-2);
+}
+.ui-pagination__list {
+  display: flex;
+  align-items: center;
+  gap: var(--ui-space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ui-pagination__item { display: flex; }
+.ui-pagination__ellipsis {
+  min-width: 2rem;
+  justify-content: center;
+  color: var(--ui-color-text-muted);
+}
+.ui-pagination__summary {
+  display: none;
+  font-size: var(--ui-font-size-sm);
+  color: var(--ui-color-text-muted);
+}
+
+/* On narrow screens show "Page X of Y" instead of the full list of numbers */
+@media (max-width: 36rem) {
+  .ui-pagination__list { display: none; }
+  .ui-pagination__summary { display: inline; }
+}

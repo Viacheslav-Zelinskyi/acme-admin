@@ -1,0 +1,78 @@
+/* Design tokens: the single source of truth for the visual language */
+:root {
+  /* Typography */
+  --ui-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --ui-font-size-xs: 0.75rem;
+  --ui-font-size-sm: 0.875rem;
+  --ui-font-size-md: 1rem;
+  --ui-font-size-lg: 1.25rem;
+  --ui-font-size-xl: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  --ui-line-height: 1.5;
+  --ui-font-weight-medium: 500;
+  --ui-font-weight-bold: 600;
+
+  /* Spacing scale */
+  --ui-space-1: 0.25rem;
+  --ui-space-2: 0.5rem;
+  --ui-space-3: 0.75rem;
+  --ui-space-4: 1rem;
+  --ui-space-5: 1.5rem;
+  --ui-space-6: 2rem;
+
+  /* Shape */
+  --ui-radius-sm: 0.25rem;
+  --ui-radius: 0.5rem;
+  --ui-radius-lg: 0.75rem;
+  --ui-radius-full: 62.5rem;
+  --ui-border-width: 1px;
+
+  /* Colors */
+  --ui-color-primary: #2563eb;
+  --ui-color-primary-hover: #1d4ed8;
+  --ui-color-primary-active: #1e40af;
+  --ui-color-primary-soft: #dbeafe;
+  --ui-color-primary-contrast: #ffffff;
+  --ui-color-danger: #dc2626;
+  --ui-color-danger-hover: #b91c1c;
+  --ui-color-danger-active: #991b1b;
+  --ui-color-danger-soft: #fee2e2;
+  --ui-color-success: #15803d;
+  --ui-color-success-soft: #dcfce7;
+  --ui-color-warning: #b45309;
+  --ui-color-warning-soft: #fef3c7;
+  --ui-color-text: #0f172a;
+  --ui-color-text-muted: #475569;
+  --ui-color-surface: #ffffff;
+  --ui-color-surface-muted: #f8fafc;
+  --ui-color-surface-hover: #f1f5f9;
+  --ui-color-border: #cbd5e1;
+  --ui-color-border-subtle: #e2e8f0;
+  --ui-color-disabled-bg: #e2e8f0;
+  --ui-color-disabled-text: #94a3b8;
+  --ui-color-focus: #2563eb;
+
+  /* Interaction */
+  --ui-focus-outline: 0.125rem solid var(--ui-color-focus);
+  --ui-focus-offset: 0.125rem;
+  --ui-transition: 150ms ease;
+
+  /* Elevation */
+  --ui-shadow: 0 0.25rem 1rem rgb(15 23 42 / 0.12);
+  --ui-z-header: 100;
+  --ui-z-dropdown: 1000;
+
+  /* Layout */
+  --ui-header-height: 3.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ui-transition: 0ms;
+  }
+}
+
+/* Every library component uses border-box sizing regardless of host app resets */
+[class^="ui-"],
+[class*=" ui-"] {
+  box-sizing: border-box;
+}

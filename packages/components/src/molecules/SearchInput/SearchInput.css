@@ -1,0 +1,23 @@
+.ui-search-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.ui-search-input__icon {
+  position: absolute;
+  left: 0.75em;
+  color: var(--ui-color-text-muted);
+  pointer-events: none;
+}
+.ui-search-input .ui-search-input__field {
+  padding-left: 2.5em;
+  padding-right: 2.75em;
+}
+.ui-search-input .ui-search-input__field::-webkit-search-cancel-button {
+  appearance: none;
+}
+.ui-search-input__clear {
+  position: absolute;
+  right: 0.25em;
+}

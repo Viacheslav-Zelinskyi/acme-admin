@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: var(--ui-font);
+  font-size: var(--ui-font-size-md);
+  line-height: var(--ui-line-height);
+  color: var(--ui-color-text);
+  background: var(--ui-color-surface-muted);
+}
+
+.app-brand {
+  color: var(--ui-color-primary);
+  text-decoration: none;
+}
+
+.page {
+  width: min(100% - 2rem, 64rem);
+  margin-inline: auto;
+  padding-block: var(--ui-space-5);
+}
+.page--narrow { width: min(100% - 2rem, 26rem); }
+
+.stack { display: flex; flex-direction: column; gap: var(--ui-space-4); }
+
+.auth-card {
+  width: min(100% - 2rem, 26rem);
+  margin: clamp(2rem, 10vh, 6rem) auto;
+  padding: var(--ui-space-5);
+  border: var(--ui-border-width) solid var(--ui-color-border-subtle);
+  border-radius: var(--ui-radius-lg);
+  background: var(--ui-color-surface);
+  box-shadow: var(--ui-shadow);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ui-space-3);
+}
+.toolbar__search { flex: 1 1 14rem; }
+
+.form-field { display: flex; flex-direction: column; gap: var(--ui-space-1); }

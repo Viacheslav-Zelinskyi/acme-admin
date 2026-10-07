@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.180.0",
+  "pnpmVersion": "9.12.0",
+  "nodeSupportedVersionRange": ">=20.11.0",
+  "pnpmOptions": {
+    "useWorkspaces": true
+  },
+  "projects": [
+    {
+      "packageName": "@acme/components",
+      "projectFolder": "packages/components"
+    },
+    { "packageName": "@acme/web", "projectFolder": "apps/web" }
+  ]
+}

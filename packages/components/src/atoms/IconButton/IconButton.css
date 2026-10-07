@@ -1,0 +1,9 @@
+.ui-icon-button {
+  padding: 0.5em;
+  aspect-ratio: 1;
+}
+.ui-icon-button[aria-pressed='true'],
+.ui-icon-button[aria-pressed='true']:hover:not(:disabled) {
+  background: var(--ui-color-primary-soft);
+  color: var(--ui-color-primary);
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "id": "user-001",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@example.com",
+    "role": "Administrator",
+    "status": "active",
+    "avatar": "/avatars/user-001.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-002",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "email": "emily.johnson@example.com",
+    "role": "Manager",
+    "status": "away",
+    "avatar": "/avatars/user-002.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-003",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "email": "michael.brown@example.com",
+    "role": "Engineer",
+    "status": "inactive",
+    "avatar": "/avatars/user-003.svg",
+    "department": "Finance"
+  },
+  {
+    "id": "user-004",
+    "firstName": "Sarah",
+    "lastName": "Davis",
+    "email": "sarah.davis@example.com",
+    "role": "Designer",
+    "status": "active",
+    "avatar": "/avatars/user-004.svg",
+    "department": "Operations"
+  },
+  {
+    "id": "user-005",
+    "firstName": "Daniel",
+    "lastName": "Martinez",
+    "email": "daniel.martinez@example.com",
+    "role": "Analyst",
+    "status": "away",
+    "avatar": "/avatars/user-005.svg",
+    "department": "Sales"
+  },
+  {
+    "id": "user-006",
+    "firstName": "Olivia",
+    "lastName": "Wilson",
+    "email": "olivia.wilson@example.com",
+    "role": "Administrator",
+    "status": "inactive",
+    "avatar": "/avatars/user-006.svg",
+    "department": "Human Resources"
+  },
+  {
+    "id": "user-007",
+    "firstName": "Alan",
+    "lastName": "Turing",
+    "email": "alan.turing@example.com",
+    "role": "Manager",
+    "status": "active",
+    "avatar": "/avatars/user-007.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-008",
+    "firstName": "Ava",
+    "lastName": "Thomas",
+    "email": "ava.thomas@example.com",
+    "role": "Engineer",
+    "status": "away",
+    "avatar": "/avatars/user-008.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-009",
+    "firstName": "Benjamin",
+    "lastName": "Harris",
+    "email": "benjamin.harris@example.com",
+    "role": "Designer",
+    "status": "inactive",
+    "avatar": "/avatars/user-009.svg",
+    "department": "Finance"
+  },
+  {
+    "id": "user-010",
+    "firstName": "Sophia",
+    "lastName": "Clark",
+    "email": "sophia.clark@example.com",
+    "role": "Analyst",
+    "status": "active",
+    "avatar": "/avatars/user-010.svg",
+    "department": "Operations"
+  },
+  {
+    "id": "user-011",
+    "firstName": "Lucas",
+    "lastName": "Lewis",
+    "email": "lucas.lewis@example.com",
+    "role": "Administrator",
+    "status": "away",
+    "avatar": "/avatars/user-011.svg",
+    "department": "Sales"
+  },
+  {
+    "id": "user-012",
+    "firstName": "Mia",
+    "lastName": "Walker",
+    "email": "mia.walker@example.com",
+    "role": "Manager",
+    "status": "inactive",
+    "avatar": "/avatars/user-012.svg",
+    "department": "Human Resources"
+  },
+  {
+    "id": "user-013",
+    "firstName": "Henry",
+    "lastName": "Hall",
+    "email": "henry.hall@example.com",
+    "role": "Engineer",
+    "status": "active",
+    "avatar": "/avatars/user-013.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-014",
+    "firstName": "Charlotte",
+    "lastName": "Allen",
+    "email": "charlotte.allen@example.com",
+    "role": "Designer",
+    "status": "away",
+    "avatar": "/avatars/user-014.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-015",
+    "firstName": "Alexander",
+    "lastName": "Young",
+    "email": "alexander.young@example.com",
+    "role": "Analyst",
+    "status": "inactive",
+    "avatar": "/avatars/user-015.svg",
+    "department": "Finance"
+  },
+  {
+    "id": "user-016",
+    "firstName": "Amelia",
+    "lastName": "King",
+    "email": "amelia.king@example.com",
+    "role": "Administrator",
+    "status": "active",
+    "avatar": "/avatars/user-016.svg",
+    "department": "Operations"
+  },
+  {
+    "id": "user-017",
+    "firstName": "Daniel",
+    "lastName": "Wright",
+    "email": "daniel.wright@example.com",
+    "role": "Manager",
+    "status": "away",
+    "avatar": "/avatars/user-017.svg",
+    "department": "Sales"
+  },
+  {
+    "id": "user-018",
+    "firstName": "Harper",
+    "lastName": "Scott",
+    "email": "harper.scott@example.com",
+    "role": "Engineer",
+    "status": "inactive",
+    "avatar": "/avatars/user-018.svg",
+    "department": "Human Resources"
+  },
+  {
+    "id": "user-019",
+    "firstName": "Sebastian",
+    "lastName": "Green",
+    "email": "sebastian.green@example.com",
+    "role": "Designer",
+    "status": "active",
+    "avatar": "/avatars/user-019.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-020",
+    "firstName": "Evelyn",
+    "lastName": "Adams",
+    "email": "evelyn.adams@example.com",
+    "role": "Analyst",
+    "status": "away",
+    "avatar": "/avatars/user-020.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-021",
+    "firstName": "Jack",
+    "lastName": "Baker",
+    "email": "jack.baker@example.com",
+    "role": "Administrator",
+    "status": "inactive",
+    "avatar": "/avatars/user-021.svg",
+    "department": "Finance"
+  },
+  {
+    "id": "user-022",
+    "firstName": "Ella",
+    "lastName": "Nelson",
+    "email": "ella.nelson@example.com",
+    "role": "Manager",
+    "status": "active",
+    "avatar": "/avatars/user-022.svg",
+    "department": "Operations"
+  },
+  {
+    "id": "user-023",
+    "firstName": "Leo",
+    "lastName": "Carter",
+    "email": "leo.carter@example.com",
+    "role": "Engineer",
+    "status": "away",
+    "avatar": "/avatars/user-023.svg",
+    "department": "Sales"
+  },
+  {
+    "id": "user-024",
+    "firstName": "Grace",
+    "lastName": "Mitchell",
+    "email": "grace.mitchell@example.com",
+    "role": "Designer",
+    "status": "inactive",
+    "avatar": "/avatars/user-024.svg",
+    "department": "Human Resources"
+  },
+  {
+    "id": "user-025",
+    "firstName": "Leo",
+    "lastName": "Perez",
+    "email": "leo.perez@example.com",
+    "role": "Analyst",
+    "status": "active",
+    "avatar": "/avatars/user-025.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-026",
+    "firstName": "Chloe",
+    "lastName": "Roberts",
+    "email": "chloe.roberts@example.com",
+    "role": "Administrator",
+    "status": "away",
+    "avatar": "/avatars/user-026.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-027",
+    "firstName": "Matthew",
+    "lastName": "Turner",
+    "email": "matthew.turner@example.com",
+    "role": "Manager",
+    "status": "inactive",
+    "avatar": "/avatars/user-027.svg",
+    "department": "Finance"
+  },
+  {
+    "id": "user-028",
+    "firstName": "Lily",
+    "lastName": "Phillips",
+    "email": "lily.phillips@example.com",
+    "role": "Engineer",
+    "status": "active",
+    "avatar": "/avatars/user-028.svg",
+    "department": "Operations"
+  },
+  {
+    "id": "user-029",
+    "firstName": "Nathan",
+    "lastName": "Campbell",
+    "email": "nathan.campbell@example.com",
+    "role": "Designer",
+    "status": "away",
+    "avatar": "/avatars/user-029.svg",
+    "department": "Sales"
+  },
+  {
+    "id": "user-030",
+    "firstName": "Zoe",
+    "lastName": "Parker",
+    "email": "zoe.parker@example.com",
+    "role": "Analyst",
+    "status": "inactive",
+    "avatar": "/avatars/user-030.svg",
+    "department": "Human Resources"
+  },
+  {
+    "id": "user-031",
+    "firstName": "Samuel",
+    "lastName": "Evans",
+    "email": "samuel.evans@example.com",
+    "role": "Administrator",
+    "status": "active",
+    "avatar": "/avatars/user-031.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-032",
+    "firstName": "Hannah",
+    "lastName": "Edwards",
+    "email": "hannah.edwards@example.com",
+    "role": "Manager",
+    "status": "away",
+    "avatar": "/avatars/user-032.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-033",
+    "firstName": "David",
+    "lastName": "Collins",
+    "email": "david.collins@example.com",
+    "role": "Engineer",
+    "status": "inactive",
+    "avatar": "/avatars/user-033.svg",
+    "department": "Finance"
+  },
+  {
+    "id": "user-034",
+    "firstName": "Layla",
+    "lastName": "Stewart",
+    "email": "layla.stewart@example.com",
+    "role": "Designer",
+    "status": "active",
+    "avatar": "/avatars/user-034.svg",
+    "department": "Operations"
+  },
+  {
+    "id": "user-035",
+    "firstName": "Joseph",
+    "lastName": "Sanchez",
+    "email": "joseph.sanchez@example.com",
+    "role": "Analyst",
+    "status": "away",
+    "avatar": "/avatars/user-035.svg",
+    "department": "Sales"
+  },
+  {
+    "id": "user-036",
+    "firstName": "Aria",
+    "lastName": "Morris",
+    "email": "aria.morris@example.com",
+    "role": "Administrator",
+    "status": "inactive",
+    "avatar": "/avatars/user-036.svg",
+    "department": "Human Resources"
+  },
+  {
+    "id": "user-037",
+    "firstName": "Andrew",
+    "lastName": "Rogers",
+    "email": "andrew.rogers@example.com",
+    "role": "Manager",
+    "status": "active",
+    "avatar": "/avatars/user-037.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-038",
+    "firstName": "Mila",
+    "lastName": "Reed",
+    "email": "mila.reed@example.com",
+    "role": "Engineer",
+    "status": "away",
+    "avatar": "/avatars/user-038.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-039",
+    "firstName": "Christopher",
+    "lastName": "Cook",
+    "email": "christopher.cook@example.com",
+    "role": "Designer",
+    "status": "inactive",
+    "avatar": "/avatars/user-039.svg",
+    "department": "Finance"
+  },
+  {
+    "id": "user-040",
+    "firstName": "Noah",
+    "lastName": "Morgan",
+    "email": "noah.morgan@example.com",
+    "role": "Analyst",
+    "status": "active",
+    "avatar": "/avatars/user-040.svg",
+    "department": "Operations"
+  },
+  {
+    "id": "user-041",
+    "firstName": "Isabella",
+    "lastName": "Bell",
+    "email": "isabella.bell@example.com",
+    "role": "Administrator",
+    "status": "away",
+    "avatar": "/avatars/user-041.svg",
+    "department": "Sales"
+  },
+  {
+    "id": "user-042",
+    "firstName": "Ryan",
+    "lastName": "Murphy",
+    "email": "ryan.murphy@example.com",
+    "role": "Manager",
+    "status": "inactive",
+    "avatar": "/avatars/user-042.svg",
+    "department": "Human Resources"
+  },
+  {
+    "id": "user-043",
+    "firstName": "Abigail",
+    "lastName": "Bailey",
+    "email": "abigail.bailey@example.com",
+    "role": "Engineer",
+    "status": "active",
+    "avatar": "/avatars/user-043.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-044",
+    "firstName": "Gabriel",
+    "lastName": "Rivera",
+    "email": "gabriel.rivera@example.com",
+    "role": "Designer",
+    "status": "away",
+    "avatar": "/avatars/user-044.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-045",
+    "firstName": "Scarlett",
+    "lastName": "Cooper",
+    "email": "scarlett.cooper@example.com",
+    "role": "Analyst",
+    "status": "inactive",
+    "avatar": "/avatars/user-045.svg",
+    "department": "Finance"
+  },
+  {
+    "id": "user-046",
+    "firstName": "Julian",
+    "lastName": "Richardson",
+    "email": "julian.richardson@example.com",
+    "role": "Administrator",
+    "status": "active",
+    "avatar": "/avatars/user-046.svg",
+    "department": "Operations"
+  },
+  {
+    "id": "user-047",
+    "firstName": "Victoria",
+    "lastName": "Cox",
+    "email": "victoria.cox@example.com",
+    "role": "Manager",
+    "status": "away",
+    "avatar": "/avatars/user-047.svg",
+    "department": "Sales"
+  },
+  {
+    "id": "user-048",
+    "firstName": "Wyatt",
+    "lastName": "Howard",
+    "email": "wyatt.howard@example.com",
+    "role": "Engineer",
+    "status": "inactive",
+    "avatar": "/avatars/user-048.svg",
+    "department": "Human Resources"
+  },
+  {
+    "id": "user-049",
+    "firstName": "Aubrey",
+    "lastName": "Ward",
+    "email": "aubrey.ward@example.com",
+    "role": "Designer",
+    "status": "active",
+    "avatar": "/avatars/user-049.svg",
+    "department": "Engineering"
+  },
+  {
+    "id": "user-050",
+    "firstName": "Isaac",
+    "lastName": "Torres",
+    "email": "isaac.torres@example.com",
+    "role": "Analyst",
+    "status": "away",
+    "avatar": "/avatars/user-050.svg",
+    "department": "Marketing"
+  },
+  {
+    "id": "user-051",
+    "firstName": "Stella",
+    "lastName": "Peterson",
+    "email": "stella.peterson@example.com",
+    "role": "Administrator",
+    "status": "inactive",
+    "avatar": "/avatars/user-051.svg",
+    "department": "Finance"
+  }
+]
